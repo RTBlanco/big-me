@@ -95,7 +95,6 @@ function editFormHandler(e) {
     e.preventDefault()
     const id = parseInt(e.target.dataset.id)
     const chart = Chart.findById(id)
-    console.log(chart)
     const title = e.target.querySelector('#input-title').value
     const content = e.target.querySelector('#input-content').value
     const date = e.target.querySelector('#start').value
